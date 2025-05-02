@@ -1,0 +1,37 @@
+{
+  "name": "thumbjs",
+  "version": "1.0.0",
+  "description": "A high-performance, lightweight browser fingerprinting library to uniquely identify browsers and devices based on their entropy data.",
+  "main": "dist/thumb.esm.js",
+  "browser": "dist/thumb.min.js",
+  "module": "dist/thumb.esm.js",
+  "unpkg": "dist/thumb.min.js",
+  "scripts": {
+  },
+  "keywords": [
+    "fingerprint",
+    "browser-fingerprint",
+    "unique-id",
+    "web-fingerprint",
+    "privacy",
+    "security"
+  ],
+  "author": "Jafran Hasan <jafraaan@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jafraaan/thumbjs"
+  },
+  "bugs": {
+    "url": "https://github.com/jafraaan/thumbjs/issues"
+  },
+  "homepage": "https://github.com/your-repo/Thumb.js",
+  "dependencies": {},
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
