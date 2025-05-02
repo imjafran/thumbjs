@@ -22,23 +22,23 @@ Developed by [Jafran Hasan](https://jafran.online), Senior Software Developer at
 
 ### NPM
 ```bash
-npm install thumb-js
+npm install thumb-browser
 ```
 
 ### Yarn
 ```bash
-yarn add thumb-js
+yarn add thumb-browser
 ```
 
 ### Direct Script Include
 ```html
-<script src="https://unpkg.com/thumb-js@latest/dist/thumb.min.js"></script>
+<script src="https://unpkg.com/thumb-browser@latest/dist/thumb.min.js"></script>
 ```
 
 ## 🚀 Quick Start
 
 ```javascript
-import Thumb from 'thumb-js';
+import Thumb from 'thumb-browser';
 
 // Create a new fingerprinter instance
 const fingerprinter = new Thumb();
@@ -132,7 +132,7 @@ Several specialized methods collect individual components for fingerprinting:
 You can extend the `Thumb` class to add additional sources of entropy or modify existing collection methods:
 
 ```javascript
-import Thumb from 'thumb-js';
+import Thumb from 'thumb-browser';
 
 class EnhancedThumb extends Thumb {
   async collect() {

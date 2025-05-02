@@ -1,5 +1,5 @@
 {
-  "name": "thumbjs",
+  "name": "thumb-browser",
   "version": "1.0.0",
   "description": "A high-performance, lightweight browser fingerprinting library to uniquely identify browsers and devices based on their entropy data.",
   "main": "dist/thumb.esm.js",
