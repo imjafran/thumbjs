@@ -1,19 +1,20 @@
-# Thumb.js
+# Thumb.js – Lightweight Browser Fingerprint Library
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-## A Lightweight, High-Entropy Browser Fingerprint Generator
+![Version](https://img.shields.io/badge/version-1.0.2-indianred.svg)
+![License](https://img.shields.io/badge/license-MIT-skyblue.svg)
 
 Thumb.js is a powerful yet lightweight browser fingerprinting library that generates unique, high-entropy device signatures based on a wide array of browser and hardware characteristics. Perfect for enhancing security, preventing fraud, or implementing robust user identification systems without relying on cookies or local storage.
 
-Developed by [Jafran Hasan](https://jafran.online), Senior Software Developer at WPPOOL.
+
+[![Developer](https://img.shields.io/badge/Developer-Jafran_Hasan-fff.svg?style=for-the-badge) ](https://fb.com/iamjafran)
+
 
 ## ✨ Features
 
+- **Forever FREE & Unlimited** - No dependency, no server cost, runs on regular browser.
 - **High Entropy Fingerprinting** - Combines 18+ device and browser characteristics
 - **Cryptographically Secure** - Uses SHA-256 hashing for maximum uniqueness
-- **Lightweight** - Zero dependencies, under 5KB minified
+- **Lightweight** - Zero dependencies, only 2KB minified
 - **Easy to Implement** - Simple API with promise-based fingerprint generation
 - **Cross-Browser Compatible** - Works in all modern browsers
 - **Privacy-Focused** - All processing happens client-side; no data is transmitted
@@ -166,4 +167,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-Developed with ❤️ by [Jafran Hasan](https://jafran.online)
+Developed by [Jafran Hasan](https://jafran.online), Sr Software Developer at [WPPOOL](https://wppool.dev).

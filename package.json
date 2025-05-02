@@ -1,23 +1,37 @@
 {
   "name": "thumb-browser",
-  "version": "1.0.0",
-  "description": "A high-performance, lightweight browser fingerprinting library to uniquely identify browsers and devices based on their entropy data.",
-  "main": "dist/thumb.esm.js",
-  "browser": "dist/thumb.min.js",
-  "module": "dist/thumb.esm.js",
-  "unpkg": "dist/thumb.min.js",
+  "version": "1.0.2",
+  "description": "A blazing-fast, dependency-free browser fingerprinting library to uniquely identify devices using entropy data. Designed for high performance, privacy-respecting analytics, bot detection, and session tracking in modern web apps.",
+  "main": "dist/thumb.umd.js",
+  "module": "dist/thumb.es.js",
+  "browser": "dist/thumb.umd.js",
+  "unpkg": "dist/thumb.umd.js",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [
-    "fingerprint",
-    "browser-fingerprint",
-    "unique-id",
-    "web-fingerprint",
-    "privacy",
-    "security"
+    "browser fingerprint",
+    "device fingerprint",
+    "fingerprint js",
+    "browser identifier",
+    "unique browser id",
+    "user identification",
+    "device detection",
+    "entropy based tracking",
+    "session tracking",
+    "anti-fraud",
+    "bot detection",
+    "browser fingerprinting",
+    "javascript fingerprint",
+    "client fingerprint",
+    "privacy respecting tracking"
   ],
   "author": "Jafran Hasan <jafraaan@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/imjafran/thumbjs"
@@ -25,13 +39,12 @@
   "bugs": {
     "url": "https://github.com/imjafran/thumbjs/issues"
   },
-  "homepage": "https://github.com/imjafran/Thumb.js",
-  "dependencies": {},
+  "homepage": "https://github.com/imjafran/thumbjs",
   "files": [
     "dist",
     "src"
   ],
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
