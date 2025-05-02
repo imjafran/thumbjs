@@ -20,12 +20,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jafraaan/thumbjs"
+    "url": "https://github.com/imjafran/thumbjs"
   },
   "bugs": {
-    "url": "https://github.com/jafraaan/thumbjs/issues"
+    "url": "https://github.com/imjafran/thumbjs/issues"
   },
-  "homepage": "https://github.com/your-repo/Thumb.js",
+  "homepage": "https://github.com/imjafran/Thumb.js",
   "dependencies": {},
   "files": [
     "dist",
